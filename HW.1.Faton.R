@@ -7,11 +7,11 @@ output:html_document
 # Homework 1
 
 # Upload csv file into R studios
-spec(DataSetsforRHW1)
-read.csv(DataSetsforRHW1.csv)
 
+DataSet = DataSetsforRHW1
+head(DataSet)
 # Retrive Data set information
-summary(DataSetsforRHW1)
-typeof(DataSetsforRHW1)
-print(DataSetsforRHW1)
-plot(DataSetsforRHW1)
+summary(DataSet)
+typeof(DataSet)
+print(DataSet)
+plot(DataSet)
